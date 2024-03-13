@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.searchcontainet {
+    width: 100%;
+    height: 70px;
+    border: solid 1px #f4f4f4;
+    background-color: #fff;
+}
+
+.search-container2 {
+    color: #000;
+    line-height: 1.55;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    background-color: white;
+    margin-left: 280px;
+    padding: 9px;
+}
+
+.search-input {
+    height: 3rem;
+    border-radius: 0.375rem;
+    border: 1px solid #e41c38;
+    background-color: #fff;
+    padding: 0.125rem 0.125rem 0.125rem 1rem;
+    color: #353435;
+    font-size: 1rem;
+    font-weight: 400;
+    flex: 1;
+    outline: none;
+}
+
+.search-button {
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #e41c38;
+    color: #fff;
+    border: transparent;
+    position: relative;
+    right: 30px;
+}
+
+.SearchIcon-container {
+    border: solid 1px none;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    border-radius: 5px;
+    background-color: #e41c38;
+    color: #fff;
+}
+
+.SearchIcon {
+    margin-left: 5px;
+}
+
+.FavoriteBorderIcon-container {
+    border: solid 1px #f4f4f4;
+    color: #353435;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    right: 20px;
+}
+
+.FavoriteBorderIcon-container:hover {
+    border: solid 1px #e41c38;
+}
+
+.FavoriteBorderIcon {
+    margin-left: 12px;
+}
+
+.card-icon-backet {
+    width: 25px;
+    margin-left: 12px;
+}
+
+.card-icon-backet-container {
+    border: solid 1px #f4f4f4;
+    color: #353435;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    right: 10px;
+}
+
+.card-icon-backet-container:hover {
+    border: solid 1px #e41c38;
+}
+
+.container-menu {
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 140px;
+    left: 0;
+    z-index: 5;
+    transition: all .3s ease-in;
+    padding: 0 12rem;
+}
+
+.search-button span svg {
+    width: 18px;
+    margin-right: 10px;
+    margin-bottom: -4px;
+    color: #e41c38;
+}
+
+.search-button {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.menu-navbar {
+    width: 1140px;
+    height: 100%;
+}
+
+.menu-navbar1 svg {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.menu-navbar1 ul li {
+    list-style: none;
+    margin: 25px;
+}

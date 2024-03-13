@@ -1,0 +1,22 @@
+.card2 {
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flittel-banner.7f5a007a.png&w=384&q=75');
+    width: 280px;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+.card-box {
+    display: flex;
+    margin-bottom: 80px;
+    margin-left: 150px;
+}
+
+.heart {
+    position: relative;
+    left: 150px;
+}

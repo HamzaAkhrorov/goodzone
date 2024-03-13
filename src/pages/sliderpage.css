@@ -1,0 +1,226 @@
+.slider-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 0 1.5rem;
+    padding: 3rem 0 5rem;
+    width: 100%;
+}
+
+body {
+    background-color: #f4f6f8;
+}
+
+.small-containers {
+    display: flex;
+    width: auto;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 1.25rem 0;
+    border-radius: 0.75rem;
+    z-index: 3;
+    position: relative;
+    left: -170px;
+    top: -20px;
+}
+
+.small-sale-container {
+    width: 400px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Finstallments-for-4-months.5be571ba.jpg&w=384&q=75');
+}
+
+.small-sale-container2 {
+    width: 400px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSamsung-for-24-months.8f7fb19e.jpg&w=384&q=75');
+}
+
+.cotegory-name {
+    font-size: 25px;
+    margin-left: 140px;
+}
+
+.cotegory-container1 {
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-1.483e4807.png&w=256&q=75');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.cotegory-container2 {
+    width: 290px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-4.fed509c6.png&w=384&q=75');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    padding: 20px;
+}
+
+.cotegory-container3 {
+    width: 290px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-5.b5d5f869.png&w=256&q=75');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+.cotegory-container4 {
+    width: 290px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-6.14aac35c.png&w=256&q=75');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+.cotegory-container5 {
+    width: 290px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-7.1.0851c7e9.png&w=256&q=75');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+.cotegory-container6 {
+    width: 600px;
+    height: 250px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url('https://goodzone.uz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpopular-card-2.b66665fe.png&w=128&q=75');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-cotegory-container {
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 80px;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.cotegory-container1-items {
+    width: 380px;
+    margin-left: 20px;
+}
+
+.cotegory-container1-items p {
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.cotegory-container1-items button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color: #f6f6f6;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.cotegory-container2 p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.cotegory-container2 button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color: #f6f6f6;
+    border: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    z-index: 1;
+    position: relative;
+    top: 50px;
+}
+
+.cotegory-container3 p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.cotegory-container3 button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color: #f6f6f6;
+    border: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    z-index: 1;
+    position: relative;
+    top: 50px;
+}
+
+.cotegory-container4 p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.cotegory-container4 button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color: #f6f6f6;
+    border: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+}
+
+.cotegory-container5 p {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.cotegory-container5 button {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+    background-color: #f6f6f6;
+    border: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    z-index: 1;
+    position: relative;
+    top: 50px;
+}

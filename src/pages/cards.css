@@ -1,0 +1,126 @@
+.main-box {
+    margin-left: 150px;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.main-box P {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.first-card-box {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.second-card-box {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.third-card-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fours-card-box {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 280px;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    margin: -50px;
+    margin-left: -50px;
+    margin-right: -150px;
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    transition: all 0.2s linear;
+}
+
+.card:hover {
+    border: 1px solid #e41c38;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card-top {
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 70px;
+}
+
+.card-bottom {
+    padding: 10px;
+}
+
+.card-bottom-button2 {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #f6f6f6;
+    transition: all 0.1s linear;
+}
+
+.card-bottom-button2:hover {
+    background-color: white;
+    color: #e41c38;
+    border: #e41c38 1px solid;
+}
+
+.card-bottom-button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdebec;
+}
+
+.card-bottom .card-bottom-p {
+    font-size: 17px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.card-bottom strong {
+    font-size: 25px;
+}
+
+.card-bottom p {
+    font-size: 17px;
+    margin: 0;
+}
+
+.card-bottom span {
+    color: #e41c38;
+}
+
+.card-bottom svg {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #e41c38;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all 0.1s linear;
+}
+
+.card-bottom svg:hover {
+    background-color: #e41c38;
+    color: white;
+}
+
+.button {
+    display: flex;
+}
